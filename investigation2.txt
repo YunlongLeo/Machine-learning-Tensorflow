@@ -1,0 +1,66 @@
+3.1 Multi-layer perceptron
+
+X-axis:
+Run 		Jumping Jacks Accuracy 	Lunges Accuracy 	Squat Accuracy
+1		0.6666667		1			0.6666667
+2		1			1			0.6666667
+3		0.6666667		0.6666667		0.6666667
+4		0.3333333		0			0
+5		1			1			0.6666667
+6		0.3333333		1			0.3333333
+7		0.3333333		0.3333333		0.6666667
+9		0.3333333		0.6666667		0.6666667
+9		0.3333333		0.6666667		0.6666667
+10		0.6666667		1			0.3333333
+Average 	0.566			0.731			0.535
+
+Y-axis
+Run 		Jumping Jacks Accuracy 	Lunges Accuracy 	Squat Accuracy
+1		0.6666667		0.6666667		0.6666667
+2		0.3333333		0.6666667		0.6666667
+3		0.3333333		0.6666667		0.6666667
+4		0.6666667		0.3333333		0.3333333
+5		0.6666667		1			0.6666667
+6		1			0.3333333		0.6666667
+7		0.6666667		0.6666667		0.6666667
+9		0.6666667		0.3333333		1
+9		0.6666667		0.6666667		0.6666667
+10		0.3333333		0			0.6666667
+Average 	0.601			0.531			0.66
+
+Z-axis
+Run 		Jumping Jacks Accuracy 	Lunges Accuracy 	Squat Accuracy
+1		0.3333333		0.3333333		0.3333333
+2		0.6666667		0.6666667		0
+3		0.6666667		0.6666667		0.3333333
+4		0.6666667		0.3333333		0.3333333
+5		0.3333333		0			0.3333333
+6		0			0.3333333		0.3333333
+7		0.3333333		1			0.3333333
+9		0.6666667		0.6666666		0.3333333
+9		0			0.3333333		0.3333333
+10		0.3333333		0			0.3333333
+Average 	0.4			0.43			0.30
+
+
+3.2 Multi-axis Composition 
+Run 		Jumping Jacks Accuracy 	Lunges Accuracy 	Squat Accuracy
+1		0.6666667		0.5555556		0.7777778
+2		0.5555556		0.6666667		0.5555556
+3		0.5555556		0.3333333		0.2222222
+4		0.8888889		0.6666667		0.6666667
+5		0.6666667		0.6666667		0.7777778
+6		0.6666667		0.6666667		0.5555556
+7		0.6666667		0.6666667		0.8888889
+9		0.4444445		0.5555556		0.6666667
+9		0.7777778		0.6666667		0.6666667
+10		0.3333333		0.7777778		0.7777778
+Average 	0.625			0.625			0.66
+
+
+We ran 10 times of single and multi-axis and calculated the mean accuracy:
+single = 0.66 (using the most significant axis)    
+multi = 0.64
+In general, single-axis composition works slightly better, because although the multi-axis composition will give a more complete view of the operation, it still contains some noises such as z-axis which does not have signification impact in classficition.
+
+

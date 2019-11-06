@@ -1,0 +1,23 @@
+a.
+learning_rate = 0.001
+training_epochs =100
+display_step = 10
+
+		Training Cost		Testing Cost		Difference
+X1		0.92087215		0.94217783		0.02130568
+X2		0.58656687		0.5741342		0.012432694
+X3		0.38034984		0.32833934		0.052010506
+X4		0.43921036		0.34816018		0.09105018
+X5		0.7962951		0.6754575		0.12083763
+X6		0.37314808		0.3309157		0.042232394
+Multiple	0.46113056		0.453465		0.0076655447
+
+b.
+Multiple is the smallest error on the test set.
+Because its testing difference is the smallest.
+
+c.
+The overfitting appears in the X5. In general, the over-fitting problem in prediction can be checked by validation. If the developed model is giving good  prediction for training data sets and biased prediction in case of validation, then model can be considered as over-fitted. In our result, X5 has the biggest difference, so we can observe overfitting there.
+
+
+
